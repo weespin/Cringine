@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\VertexShader.hlsl">
+      <Filter>Resources\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\PixelShader.hlsl">
+      <Filter>Resources\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine\Entities\Box.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Camera.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\WilliamSphere.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\PingleLogo.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\InputSystem.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\InputEventable.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Model\Model.cpp">
+      <Filter>Engine\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\TextureManager.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\RenderStateManager.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\DirectX12.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utils\Logger.cpp">
+      <Filter>Engine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Entity.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx12.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\BaseComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\WorldComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\PrimitiveComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\TexturedMeshComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\StaticMeshComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\BBOXVisualizerComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Components\ComponentManager.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Headers\EngineHeaders.cpp">
+      <Filter>Engine\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\Mesh.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\MeshCache.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\ModelPredCompiler.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\OasisDirt.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\OasisPalmAndGrass.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\OasisRocks.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\OasisSand.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\OasisWater.cpp">
+      <Filter>Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\StaticModelManager.cpp">
+      <Filter>Engine\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\World\World.cpp">
+      <Filter>Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entities\Monkey.cpp" />
+    <ClCompile Include="PropertyManager.cpp" />
+    <ClCompile Include="ImGUI\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="Engine\Entities\EntityManager.cpp" />
+    <ClCompile Include="StaticLight.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Engine\Entities\Box.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Camera.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Monkey.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\WilliamSphere.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\PingleLogo.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\InputSystem.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\InputEventable.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Model\Model.h">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\TextureManager.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\RenderStateManager.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\DirectX12.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utils\Logger.h">
+      <Filter>Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utils\ColorHelper.h">
+      <Filter>Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Entity.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\Line.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\d3dx12.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\BaseComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\WorldComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\PrimitiveComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\TexturedMeshComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\StaticMeshComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\BBOXVisualizerComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Components\ComponentManager.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\EngineHeaders.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\Mesh.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\MeshCache.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\ModelPredCompiler.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\OasisDirt.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\OasisPalmAndGrass.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\OasisRocks.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\OasisSand.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entities\OasisWater.h">
+      <Filter>Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\StaticModelManager.h">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\World\World.h">
+      <Filter>Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyManager.h" />
+    <ClInclude Include="Engine\Entities\EntityManager.h" />
+    <ClInclude Include="StaticLight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Resources\Textures\sphere.jpg">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Textures\white.jpg">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\cube.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\PingleLogo.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\sphere.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\Monkey.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Textures\oasis_Rock.png">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Textures\oasis_Dirt.png">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Textures\oasis_PalmTree.png">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Textures\oasis_Sand.png">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Textures\oasis_Water.png">
+      <Filter>Resources\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\Oasis_Dirt.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\Oasis_PalmAndGrass.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\Oasis_Rocks.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\Oasis_Sand.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Resources\Models\Oasis_Water.obj">
+      <Filter>Resources\Models</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ce49115e-9bc3-49ac-a171-00ed5e4b0516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{29adc8ec-5e3d-4556-a336-c071f13c00e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{f31af8a2-f133-4191-a189-b29f2bcbd3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{7fcd0e49-be0b-449a-a973-484043bfd773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8642d279-71d4-4bcc-982f-64a3d41150dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entities">
+      <UniqueIdentifier>{cac6e0be-28a8-42f5-a4a3-cbf94f56d188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{1068af8e-b99e-46fc-b035-23cb509ae01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Model">
+      <UniqueIdentifier>{16ef96cb-ea29-4d95-8672-d0bc4b28bc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer">
+      <UniqueIdentifier>{c7a5dd90-8e72-4cc5-97f7-90492a1b59b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils">
+      <UniqueIdentifier>{4ae87d67-b0f2-4f51-9f09-293ece1f089e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{ed0ddeb5-5052-45b7-8f54-b0ebe62488b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\World">
+      <UniqueIdentifier>{498e9f9c-90a6-4a8e-b848-8ec4444e8f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{2c3e1a8a-5d63-4746-b0ba-f9d41ee06341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Headers">
+      <UniqueIdentifier>{d58a5f12-b109-481c-be4c-9e67c222fe57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\NewFilter1">
+      <UniqueIdentifier>{b1f83dc0-f4ec-4400-8be7-666cd531ebd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
